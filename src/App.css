@@ -20,7 +20,7 @@
   min-width: 500px;
   max-width: 700px;
   width: 100%;
-  background: url('/images/bg-main-desktop.png');
+  background: url('/challenge-frontendmentor/images/bg-main-desktop.png');
   background-repeat: repeat-y;
   background-attachment: fixed;
   display: flex;
