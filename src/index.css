@@ -1,0 +1,26 @@
+/* - Family: [Space Grotesk](https://fonts.google.com/specimen/Space+Grotesk) */
+
+@font-face{
+  font-family: 'Space Grotesk';
+  src: url('Space_Grotesk/static/SpaceGrotesk-Regular.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Space Grotesk', serif;
+  font-weight: 500;
+}
+
+
+body{
+  overflow-x: hidden;
+  font-size: 18px;
+}
+
+a{
+  text-decoration: none;
+}
