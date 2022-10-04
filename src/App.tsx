@@ -369,7 +369,7 @@ function App() {
             </div>
           </form>
           <div className={`complete-state ${completeState[1]}`}>
-            <img src="/images/icon-complete.svg" alt="Complete" />
+            <img src="/challenge-frontendmentor/images/icon-complete.svg" alt="Complete" />
             <h2>THANK YOU!</h2>
             <p>We've added your card details</p>
             <button onClick={handleReset}>Continue</button>
