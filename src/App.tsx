@@ -243,12 +243,12 @@ function App() {
         <div className="card">
           <div className="card-front">
             <img
-              src="/challenge-frontendmentor/images/bg-card-front.png"
+              src="/images/bg-card-front.png"
               alt=""
               className="card-front-bg"
             />
             <span className="circles">
-              <img src="/challenge-frontendmentor/images/card-logo.svg" alt="" />
+              <img src="/images/card-logo.svg" alt="" />
             </span>
             <div className="card-numbers">
               <p>
@@ -274,7 +274,7 @@ function App() {
           </div>
           <div className="card-back">
             <img
-              src="/challenge-frontendmentor/images/bg-card-back.png"
+              src="/images/bg-card-back.png"
               alt=""
               className="card-back-bg"
             />
