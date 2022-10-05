@@ -276,7 +276,7 @@ function App() {
           </div>
           <div className="card-back">
             <img
-              src="/images/bg-card-back.png"
+              src={`${pathName}images/bg-card-back.png`}
               alt=""
               className="card-back-bg"
             />
