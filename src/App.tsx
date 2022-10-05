@@ -63,6 +63,8 @@ function App() {
     "desactive",
   ]);
 
+  const pathName = window.location.pathname;
+
   const numbersRegex = /^[0-9]+$/;
   const dateRegex = /([0-9]{1,2}$)/;
 
@@ -243,12 +245,12 @@ function App() {
         <div className="card">
           <div className="card-front">
             <img
-              src="/images/bg-card-front.png"
+              src={`${pathName}images/bg-card-front.png`}
               alt=""
               className="card-front-bg"
             />
             <span className="circles">
-              <img src="/images/card-logo.svg" alt="" />
+              <img src={`${pathName}images/card-logo.svg`} alt="" />
             </span>
             <div className="card-numbers">
               <p>
